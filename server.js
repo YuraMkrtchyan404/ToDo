@@ -21,7 +21,6 @@ connection.connect((error) => {
     if (error) console.error(error);
 });
 
-///////// done ////////////////
 app.post('/register', async (req, res) => {
 
     const { name, surname, email, password } = req.body;
